@@ -20,7 +20,7 @@ objects in the same fashion.
 """
 
 setup(
-    name='django-fixtureless',
+    name='neutron-fixtureless',
     version=version,
     author='Rico Cordova',
     author_email='rico.cordova@rocksolidbox.com',
