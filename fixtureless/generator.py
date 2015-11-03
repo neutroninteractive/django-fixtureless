@@ -161,6 +161,9 @@ class Generator(object):
     def _generate_listfield(self, instance, field):
         return [self._generate_textfield(instance, field)]
 
+    def _generate_dictionarylistfield(self, instance, field):
+        return [self._generate_dictionaryfield(instance, field)]
+
     def _generate_urlfield(self, instance, field):
         return self._generate_charfield(instance, field)
 
