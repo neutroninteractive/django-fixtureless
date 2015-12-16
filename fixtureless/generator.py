@@ -125,6 +125,9 @@ class Generator(object):
         octets = [str(random.randint(0, 255)) for n in range(num_octets)]
         return '.'.join(octets)
 
+    def _generate_genericipaddressfield(self, instance, field):
+        return self._generate_ipaddressfield(instance, field)
+
     def _generate_with_char_set(self, char_set, field):
         if field.default != NOT_PROVIDED:
             return field.default
