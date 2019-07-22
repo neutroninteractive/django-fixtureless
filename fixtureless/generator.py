@@ -90,6 +90,9 @@ class Generator(object):
     def _generate_storefield(self, instance, field):
         return self._generate_dictionaryfield(instance, field)
 
+    def _generate_hstorefield(self, instance, field):
+        return self._generate_dictionaryfield(instance, field)
+
     def _generate_decimalfield(self, instance, field):
         if field.default != NOT_PROVIDED:
             return field.default
