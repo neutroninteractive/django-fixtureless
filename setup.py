@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-version = '1.4.3.4'
+version = '1.4.3.5'
 
 LONG_DESCRIPTION = """
 =====================================
@@ -22,10 +22,10 @@ objects in the same fashion.
 setup(
     name='neutron-fixtureless',
     version=version,
-    author='Rico Cordova',
-    author_email='rico.cordova@rocksolidbox.com',
+    author='Neutron Interactive',
+    author_email='admin@neutroninteractive.com',
     packages=['fixtureless'],
-    url='https://github.com/ricomoss/django-fixtureless',
+    url='https://github.com/neutroninteractive/django-fixtureless',
     license='LICENSE.txt',
     description='Test utility to create fixtureless objects in Django.',
     long_description=LONG_DESCRIPTION,
